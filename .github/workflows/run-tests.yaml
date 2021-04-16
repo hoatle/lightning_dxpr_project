@@ -1,5 +1,7 @@
 name: Run tests on qa-demo installation
 
+on: [pull_request]
+
 env:
   DXPR_ACCESS_TOKEN: ${{ secrets.DXPR_ACCESS_TOKEN }}
 
