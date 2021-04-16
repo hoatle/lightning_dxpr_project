@@ -5,7 +5,7 @@ services:
   ### Building the dxpr builder
   dxpr-builder:
     image: dxpr/dxpr-builder:$DXPR_BUILDER_MODE
-    profiles: ["build"]
+    profiles: ["foo"]
     entrypoint: /bin/sh
     build:
       context: ./dxpr-builder
