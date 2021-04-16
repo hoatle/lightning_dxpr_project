@@ -1,0 +1,12 @@
+name: Run tests on qa-demo installation
+
+env:
+  DXPR_ACCESS_TOKEN: ${{ secrets.DXPR_ACCESS_TOKEN }}
+
+jobs:
+
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: testing
+    - run: echo "Hello GitHub Actions"
