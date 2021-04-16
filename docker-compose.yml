@@ -10,6 +10,7 @@ volumes:
   ### qa-demo dxpr_builder module volume
   dxpr-builder:
 
+#some comment
 services:
 
   #####################
