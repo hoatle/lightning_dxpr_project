@@ -43,5 +43,6 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
+      - run: echo "$DXPR_ACCESS_TOKEN"
       - run: ./scripts/qa-demo.build.sh
       - run: echo "🍏 This job's status is ${{ job.status }}."
