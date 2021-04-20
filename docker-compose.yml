@@ -161,6 +161,6 @@ services:
     command: bash run-dev.sh
     tty: true
     environment:
-      DXPR_ACCESS_TOKEN: ${DXPR_ACCESS_TOKEN}
+      DXPR_ACCESS_TOKEN: $DXPR_ACCESS_TOKEN
     volumes:
       - .:/opt/app
